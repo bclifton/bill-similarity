@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700|Roboto+Condensed:700|Roboto:400|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="panel" id="info-panel">
+          <h2>Who benefits from the status quo in the US Government?</h2>
+          <h4>Similar House of Representatives Bills Across Multiple Congresses</h4>
+          <br>
+          <p>A text analysis of all bills introduced in the House of Representatives was performed to determine linguistic similarity of bills from one Congress with the following Congress. Lines are drawn between similar bills, with the lightness of the lines representing the percent similarity.</p>
+          <p>For each Congress, a text corpus was created from all House of Representatives bills. This text corpus was used to create a Model that could be used compare bills from other Congresses. Next, bills from the previous congress were compared with the newer bills, and if the bills were more than 80% similar, lines are drawn connecting the bills.</p>
+          <br>
+          <h5>What are the bills that have similar language across multiple Congresses?</h5>
+          <br>
+          <h5>What bills were passed? And which ones are continually reintroduced?</h5>
+          <br>
+        </div>
+        <a href="http://nbviewer.ipython.org/gist/bclifton/b29809279761069a8a97" target="blank"><div class="panel" id="code-panel"><h5>Code</h5> <code>iPython Notebook</code></div></a>
+        <div class="panel" id="data-panel"><h5>Data</h5></div>
+      </div>
+      <div class="col-sm-9" id="graphic">
+        <div id='myContainer'></div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.2/p5.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

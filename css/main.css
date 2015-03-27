@@ -1,0 +1,56 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(232, 232, 232);
+  color: rgb(66, 68,67);
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0px;
+	font-family: 'Roboto';
+}
+
+h1, h2{
+	margin-bottom: 15px;
+}
+
+p {
+	font-family: 'Roboto Slab';
+	font-size: 12px;
+}
+
+pre, code {
+	font-family: 'Inconsolata';
+	font-size: 12px;
+}
+
+
+a {
+	color: #424443;
+}
+
+.container {
+	width: 100%;
+}
+
+.panel {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+}
+
+#info-panel {
+
+}
+
+#code-panel {
+}
+
+#data-panel {
+
+}
+
+#graphic {
+}
+
